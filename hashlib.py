@@ -45,7 +45,7 @@ def hash_func():
     elif menu == "4":
       sha3_256()
     elif menu == "5":
-      sha3_512()2
+      sha3_512()
     else: 
       sys.exit(0)
     runagain = str(input("Do you want to use this again (type 1 or 0): "))
